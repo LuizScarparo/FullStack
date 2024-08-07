@@ -77,7 +77,7 @@ tratamento de excessões - feito para capturar erros
             throw new Error('erro tal')
         } catch(error) {
             faz tal coisa, mostra oq quiser
-        } finally {
+        } finally {.
             enfim faz outra coisa
         }
 
