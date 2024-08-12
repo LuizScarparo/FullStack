@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-primary: #f4f5fb;
+    --background-secondary: #fff;
+    --color-brand: #CA3884;
+    --color-brand-hover: #a52c6b;
+    --color-danger: #c93847;
+    --content-primary: #080b12;
+    --content-secondary: #374151;
+    --content-tertiary: #9ca3af;
+    --always-white: #fff;
+    --border-primary: #d1d5db;
+    --border-hover: #b9c2d0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.color-brand {
+    color: var(--color-brand);
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.label,
+.paragraph {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+}
+
+.link {
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+.button {
+    background-color: var(--color-brand);
+    color: var(--always-white);
+    border-radius: .625rem;
+}
+
+.button:hover {
+    background-color: var(--color-brand-hover);
+}
+
+.textfield,
+.checkbox {
+    background-color: var(--always-white);
+    border: 1px solid var(--border-primary);
+    border-radius: .625rem;
+}
+
+.textfield:hover,
+.checkbox:hover {
+    border: var(--border-hover);
+}
+
+.textfield:active,
+.checkbox:active {
+    border: var(--border-primary);
+    color: var(--content-primary);
+}
