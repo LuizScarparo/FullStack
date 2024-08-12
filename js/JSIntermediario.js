@@ -117,8 +117,8 @@ console.log(date) //mon jan 01 2024 00:00:00
 
     console.log(stringSpace.trim().length) //retira os espacos do inicio e final da string
 
-    const maskedString = string.padStart(10, 'x') //xxxxxxaloo
-    const maskedString = string.padEnd(10, 'Y') //alooYYYYYY
+    const maskedStringX = string.padStart(10, 'x') //xxxxxxaloo
+    const maskedStringY = string.padEnd(10, 'Y') //alooYYYYYY
 
     let text = 'estudar, aprender, praticar'
     let separetedText = text.split(',') //['estudar', ' aprender', ' praticar']
@@ -132,3 +132,25 @@ console.log(date) //mon jan 01 2024 00:00:00
     //quando nao encontra retorna -1
     console.log(messageFinding.includes('estudando')) //retorna boolean se existe ou nao
 
+ // ARRAYS
+
+    let estrutura = []
+
+    estrutura.push('alo') //adiciona um item ao final do array
+    estrutura.push('teste')
+    estrutura.unshift('um') //adiciona um item ao inicio do array
+
+    estrutura.shift() //REMOVE um item ao inicio do array
+    estrutura.pop() //REMOVE um item ao final do array
+
+    let frutas = ['maçã', 'banana', 'melao', 'melancia']
+
+    frutas.splice(1, 2) // remove elementos da posição tal a tal //[maça, melancia]
+
+    //ou é possivel achar a posição de determinado item
+
+    let position = frutas.indexOf('melao') //2
+    frutas.splice(position, 1) // remove melao pela posicao do indice,1 é o numero de itens para remover
+
+
+    console.log(frutas.include('maçã')) //verifica se tem ou nao, retorna boolean
