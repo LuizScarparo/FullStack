@@ -191,3 +191,30 @@ console.log(date) //mon jan 01 2024 00:00:00
     for(index = 0; index < 10; index++) {
         console.log(index)
     }
+
+    //FOR IN, executa iterações atraves de um objeto
+
+    let personForIn = {
+        name: 'luiz',
+        surname: 'scarparo',
+        email: 'luiz@email.com'
+    }
+
+    for (let property in personForIn) { //muito párecido com um i in range do python, 'let name, surname, email in person', nesse caso
+        //exibe o nome da propriedade (chave)
+        console.log(property)
+        //exibir o conteudo da chave
+        console.log(person[property])
+    }
+
+    let students = ['luiz', 'gisele', 'joao'] //pode ser usado em array tambem
+
+    for(let index in students) {
+        console.log(students[index])
+    }
+
+    //FOR OF itera sobre os valores de um objeto iteravel
+
+    for (let student of students) {
+        console.log(student)
+    }
