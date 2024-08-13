@@ -154,3 +154,40 @@ console.log(date) //mon jan 01 2024 00:00:00
 
 
     console.log(frutas.include('maçã')) //verifica se tem ou nao, retorna boolean
+
+//LOOP WHILE
+
+        // let executeWhile = true
+
+        // while(executeWhile) {
+        //     let response = window.prompt('deseja continuar?')
+        //     console.log(response)
+        //     if (response === "a") {
+        //         executeWhile = false
+        //     }
+        // }
+
+            //enquanto a condição for atendida, executa
+
+    //LOOP INFINITO
+        //VALUE = TRUE
+        //WHILE (VALUE == TRUE) {
+        //FAZ ISSO}
+
+    //LOOP DO WHILE: repete ate que a condição especificada seja verdadeira, porem, a instrução será executada pelo menos uma vez antes da condição ser verificada
+
+    let value = 11
+
+    do {
+        value++
+        console.log(value)
+    } while(value < 10)
+
+    console.log('fora')
+
+    //LOOP FOR: repete ate que a condição seja falsa
+
+    //declara index = 0, até que a condição seja falsa, faz tal coisa
+    for(index = 0; index < 10; index++) {
+        console.log(index)
+    }
