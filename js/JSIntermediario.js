@@ -207,7 +207,7 @@ console.log(date) //mon jan 01 2024 00:00:00
         console.log(person[property])
     }
 
-    let students = ['luiz', 'gisele', 'joao'] //pode ser usado em array tambem
+    let students = ['luiz', 'gisele', 'alo'] //pode ser usado em array tambem
 
     for(let index in students) {
         console.log(students[index])
