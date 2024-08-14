@@ -1,9 +1,0 @@
-li {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.hidden {
-    display: none;
-}

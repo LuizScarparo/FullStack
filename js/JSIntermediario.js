@@ -216,5 +216,23 @@ console.log(date) //mon jan 01 2024 00:00:00
     //FOR OF itera sobre os valores de um objeto iteravel
 
     for (let student of students) {
-        console.log(student)
+        console.log(student) //mostra a lista, *é um for in preguiços*
+    }
+
+    //BREAK,e possivel utilizar essa palavra reservada pra quebrar um laco de repetição
+
+    for(let i = 0; i < 10; i++) {
+        if(i === 5) {
+            break
+        }
+        console.log(i) //0 1 2 3 4 5
+    }
+
+    //Continue, quebra a iteração atual e pula para a proxima
+
+    for(let i = 0; i < 10; i++) {
+        if(i === 5) {
+            continue
+        }
+        console.log(i) // 0 1 2 3 4 6 7 8 9 10
     }
